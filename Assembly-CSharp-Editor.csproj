@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4E9A03A3-A0F1-AAFF-56F1-EF6FB826EF65}</ProjectGuid>
+    <ProjectGuid>{9F1867D1-4D4E-DE12-4808-A74821E06FBF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+     <Compile Include="Assets\VSCode\Plugins\Editor\VSCode.cs" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>X:/Unity3D/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -112,7 +113,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{3918D182-1848-95E0-2EC7-372D5C67755D}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{FB1F4FE7-A77B-59B8-1EF3-C39BE82C943F}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
